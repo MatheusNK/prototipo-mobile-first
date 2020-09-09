@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App</title>
+
+    <link rel="stylesheet" href="bootstrap-4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-money" aria-hidden="true"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Principal</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="usuario.html">Usuario <i class="fa fa-user-o" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos <i class="fa fa-opencart"
+                            aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container container-usuario">
+        <form>
+            <div class="form-group div-titulo">
+                <h3>Usuario</h3>
+            </div>
+
+            <div class="form-group">
+            <label>Nome</label>
+            <input class="form-control" type="text" id="nome">
+       </div>
+
+       <div class="form-group">
+           <label>Login</label>
+           <input class="form-control" type="text" id="login">
+       </div>
+
+       <div class="form-group">
+        <label>Senha</label>
+        <input class="form-control" type="password" id="Senha">
+    </div>
+          <div class="form-group">
+              <button class="btn btn-secondary btn-controle" type="reset">limpar</button>
+              <button class="btn btn-success btn-controle" type="button">Salvar</button>
+          </div>
+
+    </form>
+    </div>
+
+
+
+    <footer>
+        <i class="fa fa-copyright" aria-hidden="true"></i> todos os direitos reservados 2020.
+    </footer>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.container-principal{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 500px;
+    border: 1px solid #2c3547ee ;
+    border-radius: 10px;
+}
+
+.container-usuario{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #2c3547ee ;
+    border-radius: 10px;
+    max-width: 450px;
+}
+
+.container-contato{
+    padding: 8px;
+    background-color: #191c25;
+    color: white;
+}
+
+.contato-titulo{
+    color: #966100;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contato-dado{
+    width: 100%;
+}
+
+footer{
+    background-color: #946d19d7;
+    text-align: center;
+    padding: 5px;
+}
+
+.div-titulo{
+    background-color: #27262b;
+    color: #c0870bd7;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-controle{
+    width: 49%;
+    
+}
