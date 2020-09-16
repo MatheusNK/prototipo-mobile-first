@@ -14,6 +14,21 @@
     max-width: 450px;
 }
 
+.container-conteudo-contato{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #2c3547ee ;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.container-produtos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #2c3547ee ;
+    border-radius: 10px;
+}
+
 .container-contato{
     padding: 8px;
     background-color: #191c25;
@@ -49,3 +64,38 @@ footer{
     width: 49%;
     
 }
+
+img{
+    margin: 10px;
+    width: 300px;
+    height: 185px;
+}
+
+.card{
+    margin: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    img{
+        margin: 150px;
+        width:90px;
+    }
+}
+
+@media screen and (max-width: 772px){
+    img{
+        margin: 120px;
+        width:80px;
+    }
+}
+img{
+    margin: 10px;
+    width: 80%;
+}
+
+.card{
+    margin: 10px;
+    text-align: center;
+}
+
+

@@ -21,10 +21,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="index.html">Principal</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="usuario.html">Usuario <i class="fa fa-user-o" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
@@ -38,29 +38,36 @@
         </div>
     </nav>
 
-    <div class="container container-usuario">
+    <div class="container container-conteudo-contato">
         <form>
             <div class="form-group div-titulo">
-                <h3>Usuario</h3>
+                <h3>Entre em Contato</h3>
             </div>
 
             <div class="form-group">
-            <label>Nome</label>
-            <input class="form-control" type="text" id="nome">
+            <label><i class="fa fa-user" aria-hidden="true"></i>Nome</label>
+            <input class="form-control" type="text" id="nome" required>
        </div>
 
        <div class="form-group">
-           <label>Login</label>
-           <input class="form-control" type="text" id="login">
+           <label><label><i class="fa fa-envelope"></i> E-mail</label>E-mail</label>
+           <input class="form-control" type="email" id="email" required>
        </div>
 
        <div class="form-group">
-        <label>Senha</label>
-        <input class="form-control" type="password" id="Senha">
+        <label><label><i class="fa fa-whatsapp"></i> Whatsapp</label>Whatsapp</label>
+        <input class="form-control" type="tel" id="telefone" required>
     </div>
+
+    <div class="form-group">
+        <label><i class="fa fa-user"></i> Mensagem</label>
+        <textarea id="Mensagem" class="form-control" rows="10"></textarea>
+
+    </div>
+
           <div class="form-group">
               <button class="btn btn-secondary btn-controle" type="reset">limpar</button>
-              <button class="btn btn-success btn-controle" type="button">Salvar</button>
+              <button class="btn btn-success btn-controle" type="submit">Enviar</button>
           </div>
 
     </form>
