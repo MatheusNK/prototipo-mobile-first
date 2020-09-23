@@ -2,8 +2,16 @@
     margin-top: 15px;
     margin-bottom: 15px;
     height: 500px;
-    border: 1px solid #2c3547ee ;
-    border-radius: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: #c26e00;
+}
+
+.container-maps{
+    margin-bottom: 50px;
+    height: 500px;
+    border-radius: 600px;
+    text-align: center;
 }
 
 .container-usuario{
@@ -36,7 +44,7 @@
 }
 
 .contato-titulo{
-    color: #966100;
+    color: #bb7900;
     font-weight: bold;
     width: 100%;
 }
@@ -46,23 +54,23 @@
 }
 
 footer{
-    background-color: #946d19d7;
+    background-color: #b66700d7;
     text-align: center;
     padding: 5px;
 }
 
 .div-titulo{
-    background-color: #27262b;
+    background-color: #ffffff;
     color: #c0870bd7;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 10px;
+    margin: 2px;
+    padding: 40px;
+    border-radius: 20px;
     text-align: center;
 }
 
 .btn-controle{
     width: 49%;
-    
+    color: #ffffff;
 }
 
 img{
